@@ -15,3 +15,6 @@ console.log(`Score: ${myScore}`);
 // arrays
 let myArray = ["yoshi", "peach"];
 console.log(myArray.length);
+console.log(myArray.join("/"));
+myArray.push("luigi");
+console.log(myArray);
