@@ -11,3 +11,7 @@ let myName = "mario and luigi";
 myScore = "1250";
 console.log(myScore.concat(" points"));
 console.log(`Score: ${myScore}`);
+
+// arrays
+let myArray = ["yoshi", "peach"];
+console.log(myArray);
