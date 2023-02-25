@@ -14,4 +14,4 @@ console.log(`Score: ${myScore}`);
 
 // arrays
 let myArray = ["yoshi", "peach"];
-console.log(myArray);
+console.log(myArray.length);
