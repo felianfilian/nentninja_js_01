@@ -14,13 +14,27 @@ myScore = "1250";
 
 // arrays
 let myArray = ["yoshi", "peach"];
+myArray.push("luigi");
 // console.log(myArray.length);
 // console.log(myArray.join("/"));
-myArray.push("luigi");
+
 // console.log(myArray);
 
 // types
 let myNumber = 1234;
-console.log(typeof myNumber);
 let newString = String(myNumber);
-console.log(typeof newString);
+// console.log(typeof myNumber);
+// console.log(typeof newString);
+
+// control flow
+a = 2;
+switch (a) {
+  case 1:
+    console.log("its one");
+    break;
+  case 2:
+    console.log("its two");
+    break;
+  default:
+    console.log(def);
+}
