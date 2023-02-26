@@ -38,3 +38,13 @@ switch (a) {
   default:
     console.log(def);
 }
+
+// fucntions
+const calc = (callbackFunc) => {
+  let value = 20;
+  callbackFunc(value);
+};
+
+calc((value) => {
+  console.log(value);
+});
