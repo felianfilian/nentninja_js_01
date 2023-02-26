@@ -22,3 +22,5 @@ myArray.push("luigi");
 // types
 let myNumber = 1234;
 console.log(typeof myNumber);
+let newString = String(myNumber);
+console.log(typeof newString);
