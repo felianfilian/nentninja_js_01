@@ -9,12 +9,16 @@ let myName = "mario and luigi";
 
 // string concat
 myScore = "1250";
-console.log(myScore.concat(" points"));
-console.log(`Score: ${myScore}`);
+// console.log(myScore.concat(" points"));
+// console.log(`Score: ${myScore}`);
 
 // arrays
 let myArray = ["yoshi", "peach"];
-console.log(myArray.length);
-console.log(myArray.join("/"));
+// console.log(myArray.length);
+// console.log(myArray.join("/"));
 myArray.push("luigi");
-console.log(myArray);
+// console.log(myArray);
+
+// types
+let myNumber = 1234;
+console.log(typeof myNumber);
