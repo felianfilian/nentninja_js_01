@@ -48,3 +48,16 @@ const calc = (callbackFunc) => {
 calc((value) => {
   console.log(value);
 });
+
+// foreach routine
+const container01 = document.querySelector("#container01");
+const people = ["mario", "yoshi", "toad"];
+let html01 = "";
+
+function createList(person) {
+  html01 += `<p>${person}</p>`;
+}
+
+people.forEach(createList);
+
+container01.innerHTML = html01;
