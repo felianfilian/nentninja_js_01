@@ -84,4 +84,6 @@ console.log((1.2345).toFixed(2));
 console.log(Math.round(num02));
 
 // random
-console.log(Math.random());
+for (let i = 0; i < 20; i++) {
+  console.log(Math.round(Math.random() * 5) + 1);
+}
