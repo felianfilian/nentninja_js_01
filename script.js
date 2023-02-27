@@ -77,3 +77,8 @@ class user {
 
 let person01 = new user("mario", 56);
 person01.showName();
+
+// objects
+let num02 = 1.2345;
+console.log((1.2345).toFixed(2));
+console.log(Math.round(num02));
