@@ -61,3 +61,19 @@ function createList(person) {
 people.forEach(createList);
 
 container01.innerHTML = html01;
+
+// classes
+
+class user {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  showName() {
+    console.log(`${this.name} is ${this.age} years old`);
+  }
+}
+
+let person01 = new user("mario", 56);
+person01.showName();
