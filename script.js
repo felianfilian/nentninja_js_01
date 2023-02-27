@@ -82,3 +82,6 @@ person01.showName();
 let num02 = 1.2345;
 console.log((1.2345).toFixed(2));
 console.log(Math.round(num02));
+
+// random
+console.log(Math.random());
