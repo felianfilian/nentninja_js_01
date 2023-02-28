@@ -86,7 +86,10 @@ console.log(Math.round(num02));
 // random
 console.log(Math.round(Math.random() * 5) + 1);
 
-// DOm
+// DOM
 
 let container02 = document.querySelector("#container02");
 container02.querySelector("p").innerHTML = "peach";
+
+let div01 = document.querySelectorAll("div > p");
+div01[0].innerHTML = "luigi";
