@@ -84,6 +84,9 @@ console.log((1.2345).toFixed(2));
 console.log(Math.round(num02));
 
 // random
-for (let i = 0; i < 20; i++) {
-  console.log(Math.round(Math.random() * 5) + 1);
-}
+console.log(Math.round(Math.random() * 5) + 1);
+
+// DOm
+
+let container02 = document.querySelector("#container02");
+container02.querySelector("p").innerHTML = "peach";
