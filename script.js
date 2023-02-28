@@ -1,4 +1,4 @@
-// string tests
+//// string tests
 let myName = "mario and luigi";
 // console.log(myName[3]);
 // console.log(myName.length);
@@ -7,12 +7,12 @@ let myName = "mario and luigi";
 // console.log(myName.substring(6, 9));
 // console.log(myName.replace("luigi", "peach"));
 
-// string concat
+//// string concat
 myScore = "1250";
 // console.log(myScore.concat(" points"));
 // console.log(`Score: ${myScore}`);
 
-// arrays
+//// arrays
 let myArray = ["yoshi", "peach"];
 myArray.push("luigi");
 // console.log(myArray.length);
@@ -20,13 +20,13 @@ myArray.push("luigi");
 
 // console.log(myArray);
 
-// types
+//// types
 let myNumber = 1234;
 let newString = String(myNumber);
 // console.log(typeof myNumber);
 // console.log(typeof newString);
 
-// control flow
+//// control flow
 a = 2;
 switch (a) {
   case 1:
@@ -39,7 +39,7 @@ switch (a) {
     console.log(def);
 }
 
-// fucntions
+//// fucntions
 const calc = (callbackFunc) => {
   let value = 20;
   callbackFunc(value);
@@ -49,20 +49,21 @@ calc((value) => {
   console.log(value);
 });
 
-// foreach routine
+//// foreach routine
 const container01 = document.querySelector("#container01");
 const people = ["mario", "yoshi", "toad"];
 let html01 = "";
 
-function createList(person) {
-  html01 += `<p>${person}</p>`;
-}
+// function createList(person) {
+//   html01 += `<p>${person}</p>`;
+// }
+//container01.innerHTML = html01;
 
-people.forEach(createList);
+people.forEach((person) => {
+  container01.innerHTML += `<p>${person}</p>`;
+});
 
-container01.innerHTML = html01;
-
-// classes
+//// classes
 
 class user {
   constructor(name, age) {
@@ -78,15 +79,15 @@ class user {
 let person01 = new user("mario", 56);
 person01.showName();
 
-// objects
+//// objects
 let num02 = 1.2345;
 console.log((1.2345).toFixed(2));
 console.log(Math.round(num02));
 
-// random
+//// random
 console.log(Math.round(Math.random() * 5) + 1);
 
-// DOM
+//// DOM
 
 let container02 = document.querySelector("#container02");
 container02.querySelector("p").innerHTML = "peach";
